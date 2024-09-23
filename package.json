@@ -1,0 +1,8 @@
+{
+	"name": "@rubriclab/config",
+	"version": "0.0.0",
+	"exports": {
+		"biome": "./biome.json",
+		"tsconfig": "./tsconfig.json"
+	}
+}
