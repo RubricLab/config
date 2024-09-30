@@ -3,9 +3,18 @@
 	"version": "0.0.1",
 	"exports": {
 		"./biome": "./biome.json",
-		"./tsconfig": "./tsconfig.json"
+		"./tsconfig": "./tsconfig.json",
+		"./postcss": "./postcss.cjs",
+		"./tailwind": "./tailwind.ts"
+	},
+	"simple-git-hooks": {
+		"post-commit": "bun x @rubriclab/package/scripts/post-commit.ts"
 	},
 	"peerDependencies": {
 		"@biomejs/biome": "1.9.2"
+	},
+	"dependencies": {
+		"@rubriclab/package": "workspace:*",
+		"simple-git-hooks": "^2.8.1"
 	}
 }
