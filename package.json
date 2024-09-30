@@ -8,13 +8,12 @@
 		"./tailwind": "./tailwind.ts"
 	},
 	"simple-git-hooks": {
-		"post-commit": "bun x @rubriclab/package/scripts/post-commit.ts"
+		"post-commit": "bun x node_modules/@rubriclab/package/scripts/post-commit.ts"
 	},
 	"peerDependencies": {
 		"@biomejs/biome": "1.9.2"
 	},
 	"dependencies": {
-		"@rubriclab/package": "workspace:*",
-		"simple-git-hooks": "^2.8.1"
+		"@rubriclab/package": "workspace:*"
 	}
 }
