@@ -1,20 +1,16 @@
 {
-	"name": "@rubriclab/config",
-	"version": "0.0.1",
-	"exports": {
-		"./biome": "./biome.json",
-		"./tsconfig": "./tsconfig.json",
-		"./postcss": "./postcss.cjs",
-		"./tailwind": "./tailwind.ts"
-	},
-	"simple-git-hooks": {
-		"post-commit": "bun x node_modules/@rubriclab/package/scripts/post-commit.ts"
-	},
-	"peerDependencies": {
-		"@biomejs/biome": "1.9.2"
-	},
-	"dependencies": {
-		"@rubriclab/package": "workspace:*"
-	}
+  "name": "@rubriclab/config",
+  "version": "0.0.3",
+  "exports": {
+    "./biome": "./biome.json",
+    "./tsconfig": "./tsconfig.json",
+    "./postcss": "./postcss.cjs",
+    "./tailwind": "./tailwind.ts"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "1.9.2"
+  },
+  "dependencies": {
+    "@rubriclab/package": "^0.0.37"
+  }
 }
-
