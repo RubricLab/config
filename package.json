@@ -1,6 +1,6 @@
 {
   "name": "@rubriclab/config",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "exports": {
     "./biome": "./biome.json",
     "./tsconfig": "./tsconfig.json",
@@ -11,12 +11,14 @@
     "@biomejs/biome": "1.9.2"
   },
   "dependencies": {
-    "@rubriclab/package": "latest"
+    "@rubriclab/package": "workspace:*"
   },
   "simple-git-hooks": {
     "post-commit": "bun run rubriclab-postcommit"
   },
   "scripts": {
-    "prepare": "bunx simple-git-hooks"
+    "prepare": "bunx simple-git-hooks",
+    "bleed": "bunx npm-check-updates -u && bun i",
+    "clean": "rm -rf .next && rm -rf node_modules"
   }
 }
