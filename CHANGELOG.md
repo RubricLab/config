@@ -1,3 +1,3 @@
-- [2024-09-30] [test3](https://github.com/RubricLab/config/commit/1b2667e8fb6bf5e4effc09e775ca128970d36d0f)
+- [2024-10-01] [release](https://github.com/RubricLab/config/commit/88b03ec8b92580fd55c9873c2ec3092f03fea02e)
 # Changelog
 
