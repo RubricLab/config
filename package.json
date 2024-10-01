@@ -1,6 +1,6 @@
 {
   "name": "@rubriclab/config",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "exports": {
     "./biome": "./biome.json",
     "./tsconfig": "./tsconfig.json",
@@ -8,10 +8,10 @@
     "./tailwind": "./tailwind.ts"
   },
   "peerDependencies": {
-    "@biomejs/biome": "1.9.2"
+    "@biomejs/biome": "latest"
   },
   "dependencies": {
-    "@rubriclab/package": "workspace:*"
+    "@rubriclab/package": "latest"
   },
   "simple-git-hooks": {
     "post-commit": "bun run rubriclab-postcommit"
