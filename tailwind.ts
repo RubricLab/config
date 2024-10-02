@@ -1,4 +1,4 @@
-import type {Config} from 'tailwindcss'
+import type { Config } from 'tailwindcss'
 import _colors from 'tailwindcss/colors'
 
 type Optional<T, K extends keyof T> = Omit<T, K> & Partial<T>

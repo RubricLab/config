@@ -1,24 +1,27 @@
 {
-  "name": "@rubriclab/config",
-  "version": "0.0.8",
-  "exports": {
-    "./biome": "./biome.json",
-    "./tsconfig": "./tsconfig.json",
-    "./postcss": "./postcss.cjs",
-    "./tailwind": "./tailwind.ts"
-  },
-  "peerDependencies": {
-    "@biomejs/biome": "latest"
-  },
-  "dependencies": {
-    "@rubriclab/package": "latest"
-  },
-  "simple-git-hooks": {
-    "post-commit": "bun run rubriclab-postcommit"
-  },
-  "scripts": {
-    "prepare": "bunx simple-git-hooks",
-    "bleed": "bunx npm-check-updates -u && bun i",
-    "clean": "rm -rf .next && rm -rf node_modules"
-  }
+	"name": "@rubriclab/config",
+	"version": "0.0.8",
+	"exports": {
+		"./biome": "./biome.json",
+		"./tsconfig": "./tsconfig.json",
+		"./postcss": "./postcss.cjs",
+		"./tailwind": "./tailwind.ts"
+	},
+	"peerDependencies": {
+		"@biomejs/biome": "latest"
+	},
+	"dependencies": {
+		"@rubriclab/package": "*"
+	},
+	"simple-git-hooks": {
+		"post-commit": "bun run rubriclab-postcommit"
+	},
+	"scripts": {
+		"prepare": "bunx simple-git-hooks",
+		"bleed": "bun x npm-check-updates -u && bun i",
+		"format": "bun x biome format --write .",
+		"lint": "bun x biome check .",
+		"lint:fix": "bun x biome lint .",
+		"clean": "rm -rf .next && rm -rf node_modules"
+	}
 }
