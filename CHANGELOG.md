@@ -1,3 +1,4 @@
+- [2024-10-02] [format](https://github.com/RubricLab/config/commit/7faf99293ab87383fc4a53ad9bc6d0bb7c12d203)
 - [2024-10-01] [bump](https://github.com/RubricLab/config/commit/8e6f1f2e8effd6a4b21696a30e05b2a931220a13)
 - [2024-10-01] [bump config](https://github.com/RubricLab/config/commit/dde8d044e16b98baf4674756f2dc798684807c25)
 - [2024-10-01] [latest deps](https://github.com/RubricLab/config/commit/5759ad02dd20013b91318ae1e95d1ce40ca26b2c)
