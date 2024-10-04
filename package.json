@@ -1,6 +1,6 @@
 {
   "name": "@rubriclab/config",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "exports": {
     "./biome": "./biome.json",
     "./tsconfig": "./tsconfig.json",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "prepare": "bunx simple-git-hooks",
-    "bleed": "bun x npm-check-updates -u && bun i",
+    "bleed": "bun x npm-check-updates -u",
     "format": "bun x biome format --write .",
     "lint": "bun x biome check . && bun x biome lint .",
     "lint:fix": "bun x biome check --fix --unsafe . && bun x biome lint --write --unsafe .",
