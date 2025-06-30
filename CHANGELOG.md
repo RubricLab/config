@@ -1,3 +1,4 @@
+- [2025-06-30] [Add README; bump version](https://github.com/RubricLab/config/commit/5fbf991b6355f95a67ce869e37fb3bf9004d6c99)
 - [2024-10-24] [add notify-monorepo action](https://github.com/RubricLab/config/commit/696efd6f28ab58abbfd63ca3dd3c51d04121007f)
 - [2024-10-04] [bleed for mono](https://github.com/RubricLab/config/commit/a3e232ae91d78c60f206392aa317941e06426279)
 - [2024-10-03] [mod lint script](https://github.com/RubricLab/config/commit/d4d0926fbef0a53550cea00b96e39786e04d067f)
