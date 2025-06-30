@@ -1,27 +1,27 @@
 {
-	"name": "@rubriclab/config",
-	"version": "0.0.17",
-	"exports": {
-		"./biome": "./biome.json",
-		"./tsconfig": "./tsconfig.json",
-		"./postcss": "./postcss.cjs",
-		"./tailwind": "./tailwind.ts"
-	},
-	"peerDependencies": {
-		"@biomejs/biome": "latest"
-	},
 	"dependencies": {
 		"@rubriclab/package": "*"
 	},
+	"exports": {
+		"./biome": "./biome.json",
+		"./postcss": "./postcss.cjs",
+		"./tailwind": "./tailwind.ts",
+		"./tsconfig": "./tsconfig.json"
+	},
+	"name": "@rubriclab/config",
+	"peerDependencies": {
+		"@biomejs/biome": "^2.0.0-beta.6"
+	},
 	"scripts": {
-		"prepare": "bun x @rubriclab/package prepare",
 		"bleed": "bun x npm-check-updates -u",
+		"clean": "rm -rf .next && rm -rf node_modules",
 		"format": "bun x biome format --write .",
 		"lint": "bun x biome check . && bun x biome lint .",
 		"lint:fix": "bun x biome check --fix --unsafe . && bun x biome lint --write --unsafe .",
-		"clean": "rm -rf .next && rm -rf node_modules"
+		"prepare": "bun x @rubriclab/package prepare"
 	},
 	"simple-git-hooks": {
 		"post-commit": "bun x @rubriclab/package post-commit"
-	}
+	},
+	"version": "0.0.18"
 }
