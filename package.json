@@ -15,13 +15,11 @@
 	"scripts": {
 		"bleed": "bun x npm-check-updates -u",
 		"clean": "rm -rf .next && rm -rf node_modules",
-		"format": "bun x biome format --write .",
-		"lint": "bun x biome check . && bun x biome lint .",
-		"lint:fix": "bun x biome check --fix --unsafe . && bun x biome lint --write --unsafe .",
-		"prepare": "bun x @rubriclab/package prepare"
+		"prepare": "bun x @rubriclab/package prepare",
+		"format": "bun x biome check . --write"
 	},
 	"simple-git-hooks": {
 		"post-commit": "bun x @rubriclab/package post-commit"
 	},
-	"version": "0.0.18"
+	"version": "0.0.19"
 }
