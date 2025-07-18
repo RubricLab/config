@@ -28,6 +28,9 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
+			"complexity": {
+				"useArrowFunction": "off"
+			},
 			"nursery": {
 				"useSortedClasses": {
 					"fix": "safe",
