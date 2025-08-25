@@ -10,7 +10,7 @@
 	},
 	"name": "@rubriclab/config",
 	"peerDependencies": {
-		"@biomejs/biome": "^2.0.0-beta.6"
+		"@biomejs/biome": "^2.2.2"
 	},
 	"scripts": {
 		"bleed": "bun x npm-check-updates -u",
