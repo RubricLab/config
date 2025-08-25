@@ -1,3 +1,4 @@
+- [2025-08-24] [release](https://github.com/RubricLab/config/commit/2862c51e94d4add2e70fbb1e5190dea3c6a10c27)
 - [2025-07-01] [run format](https://github.com/RubricLab/config/commit/fb7a483baa68b98cf9a57065a675030eb2fcd43e)
 - [2025-07-01] [consolidate biome format script](https://github.com/RubricLab/config/commit/bdcabbd2a505bf2c4957cd0f3917b7c7c2ebde29)
 - [2025-06-30] [Use sorted keys](https://github.com/RubricLab/config/commit/02740ece746cefe2bf6460ea96fec6384bd4e9ad)
