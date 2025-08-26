@@ -4,13 +4,16 @@
 	},
 	"exports": {
 		"./biome": "./biome.json",
-		"./postcss": "./postcss.cjs",
-		"./tailwind": "./tailwind.ts",
+		"./postcss": "./postcss.mjs",
 		"./tsconfig": "./tsconfig.json"
 	},
 	"name": "@rubriclab/config",
 	"peerDependencies": {
-		"@biomejs/biome": "^2.2.2"
+		"@biomejs/biome": "^2.2.2",
+		"@tailwindcss/postcss": "^4.1.12",
+		"postcss": "^8.5.6",
+		"tailwindcss": "^4.1.12",
+		"typescript": "^5.9.2"
 	},
 	"scripts": {
 		"bleed": "bun x npm-check-updates -u",
@@ -21,5 +24,5 @@
 	"simple-git-hooks": {
 		"post-commit": "bun x @rubriclab/package post-commit"
 	},
-	"version": "0.0.21"
+	"version": "0.0.22"
 }
