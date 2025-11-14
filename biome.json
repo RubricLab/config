@@ -63,5 +63,12 @@
 		"clientKind": "git",
 		"enabled": true,
 		"useIgnoreFile": true
+	},
+	"css": {
+		"parser": {
+			"allowWrongLineComments": true,
+			"cssModules": false,
+			"tailwindDirectives": true
+		}
 	}
 }
