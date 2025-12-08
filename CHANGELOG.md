@@ -1,3 +1,4 @@
+- [2025-12-08] [Bleed](https://github.com/RubricLab/config/commit/18eaa4f8e492fe8d7f20380bc592fbb135bf5402)
 - [2025-08-26] [modern tailwind config](https://github.com/RubricLab/config/commit/8018e5da7ccff23209220d5e88d8cb92a3cf2cee)
 - [2025-08-24] [release](https://github.com/RubricLab/config/commit/2862c51e94d4add2e70fbb1e5190dea3c6a10c27)
 - [2025-07-01] [run format](https://github.com/RubricLab/config/commit/fb7a483baa68b98cf9a57065a675030eb2fcd43e)
